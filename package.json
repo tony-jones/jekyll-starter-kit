@@ -20,13 +20,15 @@
     "sass": "npm run sass:dist",
     "font": "cp -R src/fonts dist/fonts",
     "imagemin": "imagemin src/images/* dist/images/ -p",
-    "speed": "psi tony-jones.github.io/portfolio/ --strategy=mobile",
+    "pagespeed": "psi tony-jones.github.io/portfolio/ --strategy=mobile",
+    "accessibility": "psi tony-jones.github.io/portfolio/ --strategy=mobile",
+    "build:jekyll": "jekyll build --config _config.yml,_config-dev.yml",
     "build:js": "npm run eslint && npm run uglify",
     "build:css": "npm run sass && npm run prefix",
     "build:font": "npm run font",
     "build:images": "npm run imagemin",
-    "build": "npm run clean && npm run build:js && npm run build:css && npm run build:images && npm run build:font && jekyll build",
-    "watch:jekyll": "chokidar 'index.html' '_includes/*.html' '_layouts/*.html' '_posts/*' -c 'jekyll build && browser-sync reload'",
+    "build": "npm run clean && npm run build:js && npm run build:css && npm run build:images && npm run build:font && npm run build:jekyll",
+    "watch:jekyll": "chokidar 'index.html' '_includes/*.html' '_layouts/*.html' '_posts/*' -c 'npm run build:jekyll && browser-sync reload'",
     "watch:css": "chokidar 'src/styles/**/*' -c 'npm run sass:_site && browser-sync reload'",
     "watch:js": "chokidar 'src/scripts/*' -c 'npm run uglify:_site && browser-sync reload'",
     "serve": "browser-sync start --server _site",
@@ -48,6 +50,7 @@
     "watch": "^0.17.1"
   },
   "dependencies": {
+    "a11y": "^0.4.0",
     "parallelshell": "^2.0.0",
     "psi": "^2.0.2"
   }
