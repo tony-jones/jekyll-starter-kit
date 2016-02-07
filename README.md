@@ -1,6 +1,3 @@
-# jekyll-starter-kit
-Jekyll Starter Kit - a jekyll-based boilerplate for multi-device websites http://tony-jones.github.io/jekyll-starter-kit
-
 # [Jekyll Starter Kit](https://github.com/tony-jones/jekyll-starter-kit/releases/latest)
 
 ## Overview
