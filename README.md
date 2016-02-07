@@ -42,11 +42,11 @@ This is not to say that Jekyll Starter Kit cannot be used in browsers older than
 
 ## Troubleshooting
 
-If you find yourself running into issues during installation or running the tools, please check our [Troubleshooting](https://github.com/tony-jones/jejyll-starter-kit/wiki/Troubleshooting) guide and then open an [issue](https://github.com/tony-jones/jekyll-starter-kit/issues). We would be happy to discuss how they can be solved.
+If you find yourself running into issues during installation or running the tools, please open an [issue](https://github.com/tony-jones/jekyll-starter-kit/issues). I would be happy to discuss how they can be solved.
 
 ## Contributing
 
-Contributions, questions and comments are all welcome and encouraged. For code contributions to Jekyll Starter Kit, please see our [Contribution guide](CONTRIBUTING.md) before submitting a pull request.
+Contributions, questions and comments are all welcome and encouraged. For code contributions to Jekyll Starter Kit, please see the [Contribution guide](CONTRIBUTING.md) before submitting a pull request.
 
 ## License
 
