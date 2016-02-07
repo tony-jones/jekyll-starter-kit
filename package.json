@@ -31,7 +31,7 @@
     "watch:jekyll": "chokidar 'index.html' '_includes/*.html' '_layouts/*.html' '_posts/*' -c 'npm run build:jekyll && browser-sync reload'",
     "watch:css": "chokidar 'src/styles/**/*' -c 'npm run sass:_site && browser-sync reload'",
     "watch:js": "chokidar 'src/scripts/*' -c 'npm run uglify:_site && browser-sync reload'",
-    "serve": "browser-sync start --server _site",
+    "serve": "browser-sync start --https --server _site",
     "start": "npm run build -s && parallelshell \"npm run serve -s\" \"npm run watch:jekyll -s\" \"npm run watch:css -s\" \"npm run watch:js -s\""
   },
   "author": "Tony Jones <ad30jone@gmail.com>, <@iamtonybagels>",
@@ -41,7 +41,6 @@
     "browser-sync": "^2.11.1",
     "eslint": "^1.10.3",
     "eslint-config-google": "^0.3.0",
-    "mocha": "^2.4.5",
     "node-sass": "^3.4.2",
     "parallelshell": "^2.0.0",
     "postcss": "^5.0.14",
