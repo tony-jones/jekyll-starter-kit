@@ -1,0 +1,11 @@
+{
+    "extends": "google",
+    "globals": {
+    "require": true,
+    "describe": true,
+    "context": true,
+    "it": true,
+    "before": true,
+    "after": true
+    }
+}
