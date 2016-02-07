@@ -15,7 +15,7 @@ Jekyll Starter Kit is an opinionated boilerplate for web development. Tools for 
 | Live Browser Reloading                 | Reload the browser in real-time anytime an edit is made without the need for an extension. (Run `npm run start` and edit your files)                                                                                                                           |
 | Cross-device Synchronization           | Synchronize clicks, scrolls, forms and live-reload across multiple devices as you edit your project. Powered by [BrowserSync](http://browsersync.io). (Run `npm run start` and open up the IP provided on other devices on your network)                       |
 | PageSpeed Insights                     | Web performance metrics showing how well your site performs on mobile and desktop (Run `npm run pagespeed`)                                                                                                                                                    |
-| Accessibility                          | Runs a web accessibility audit during the build process. Powered by the Chrome Accessibility Tools
+| Accessibility                          | Runs a web accessibility audit during the build process. Powered by the Chrome Accessibility Tools (Run `npm run accessibility`)
 
 ## Quickstart
 
