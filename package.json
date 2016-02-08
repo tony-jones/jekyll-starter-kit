@@ -18,6 +18,7 @@
     "sass:dist": "node-sass --output-style compressed src/styles/main.scss dist/styles/main.min.css",
     "sass:_site": "node-sass --output-style compressed src/styles/main.scss _site/dist/styles/main.min.css",
     "sass": "npm run sass:dist",
+    "critical": "critical _site/index.html --base _site --minify --css _site/dist/styles/main.min.css > _includes/css/critical.css",
     "font": "cp -R src/fonts dist/fonts",
     "imagemin": "imagemin src/images/* dist/images/ -p",
     "pagespeed": "psi tony-jones.github.io/jekyll-starter-kit/ --strategy=mobile",
@@ -27,7 +28,7 @@
     "build:css": "npm run sass && npm run prefix",
     "build:font": "npm run font",
     "build:images": "npm run imagemin",
-    "build": "npm run clean && npm run build:js && npm run build:css && npm run build:images && npm run build:font && npm run build:jekyll",
+    "build": "npm run clean && npm run build:js && npm run build:css && npm run build:images && npm run build:font && npm run build:jekyll && npm run critical",
     "watch:jekyll": "chokidar 'index.html' '_includes/*.html' '_layouts/*.html' '_posts/*' -c 'npm run build:jekyll && browser-sync reload'",
     "watch:css": "chokidar 'src/styles/**/*' -c 'npm run sass:_site && browser-sync reload'",
     "watch:js": "chokidar 'src/scripts/*' -c 'npm run uglify:_site && browser-sync reload'",
@@ -50,6 +51,7 @@
   },
   "dependencies": {
     "a11y": "^0.4.0",
+    "critical": "^0.7.0",
     "parallelshell": "^2.0.0",
     "psi": "^2.0.2"
   }
