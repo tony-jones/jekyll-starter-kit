@@ -26,7 +26,11 @@ This project was inspired by Google's Web Starter Kit and achieves most of the s
 
 [Download](https://github.com/tony-jones/jekyll-starter-kit/releases/latest) the kit or clone this repository and run `npm install`. Run `npm run start` to build on what is included in the `src` directory and start the server.
 
-Be sure to look over the [installation docs](docs/install.md) to verify your environment is prepared.
+### Prerequisites
+Bring up a terminal and type `node --version`.
+Node should respond with a version at or above 0.10.x.
+If you require Node, go to [nodejs.org](https://nodejs.org) and click on the big green Install button.
+
 Once you have verified that your system can run JSK, check out the [commands](docs/commands.md) available to get started.
 
 ## Performance
