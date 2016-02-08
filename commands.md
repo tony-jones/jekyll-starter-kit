@@ -1,37 +1,37 @@
 Here are some of the commands you can use on your project
 
-## Run Everything (build assets, build jekyll, run server, and watch files for changes)
+### Run Everything (build assets, build jekyll, run server, and watch files for changes)
 
 ```sh
 $ npm run start
 ```
-### All You Really Need to Remember is the Above Command
+*Note: All You Really Need to Remember is the Above Command*
 
-## Live Browser Reloading Across Devices
+###Live Browser Reloading Across Devices
 
 ```sh
 $ npm run serve
 ```
 
-## Build & Optimize Your Site
+### Build & Optimize Your Site
 
 ```sh
 $ npm run build
 ```
 
-## Serve the Fully Built & Optimized Site
+### Serve the Fully Built & Optimized Site
 
 ```sh
 $ npm run start
 ```
 
-## Performance Insights
+### Performance Insights
 
 ```sh
 $ npm run pagespeed
 ```
 
-## Accessibility
+### Accessibility
 
 ```sh
 $ npm run accessibility
