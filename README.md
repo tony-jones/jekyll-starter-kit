@@ -46,6 +46,10 @@ JSK has autoprefixer using the last three versions of the following browsers:
 * Safari (desktop Safari)
 * Opera 
 * Internet Explorer 9+
+* 
+
+Visit the [Browser List](https://github.com/ai/browserslist) for more information
+
 
 ## Troubleshooting
 
