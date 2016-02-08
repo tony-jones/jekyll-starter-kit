@@ -52,7 +52,6 @@ JSK has autoprefixer using the last three versions of the following browsers:
 * Safari (desktop Safari)
 * Opera 
 * Internet Explorer 9+
-* 
 
 Visit the [Browser List](https://github.com/ai/browserslist) for more information
 
@@ -63,7 +62,7 @@ If you find yourself running into issues during installation or running the tool
 
 ## Contributing
 
-Contributions, questions and comments are all welcome and encouraged. For code contributions to Jekyll Starter Kit, please see the [Contribution guide](CONTRIBUTING.md) before submitting a pull request.
+Contributions, questions and comments are all welcome and encouraged. For code contributions to Jekyll Starter Kit, please see the submit a pull request.
 
 ## License
 
