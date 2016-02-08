@@ -26,7 +26,8 @@ Once you have verified that your system can run JSK, check out the [commands](do
 
 ## Web Performance
 
-Jekyll Starter Kit strives to give you a high performance starting point out of the box. 
+Jekyll Starter Kit strives to give you a high performance starting point out of the box. By default, your project will have
+a 99/100 on PageSpeed insights. You will need to add caching on your server(8 days recommended) to bring it to 100/100.
 ![Speed](https://cloud.githubusercontent.com/assets/6729106/12889451/f246f650-ce4c-11e5-9508-3d135978a6c9.png)
 
 Our median Web Page Test [scores](http://www.webpagetest.org/result/160208_92_RHF/) for the default template have a [Speed Index](https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index) of ~1100 (1000 is ideal).
