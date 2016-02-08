@@ -26,7 +26,10 @@ Once you have verified that your system can run JSK, check out the [commands](do
 
 ## Web Performance
 
-Jekyll Starter Kit strives to give you a high performance starting point out of the box. Our median Web Page Test [scores](http://www.webpagetest.org/result/160208_92_RHF/) for the default template have a [Speed Index](https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index) of ~1100 (1000 is ideal).
+Jekyll Starter Kit strives to give you a high performance starting point out of the box. 
+![Speed](https://cloud.githubusercontent.com/assets/6729106/12889451/f246f650-ce4c-11e5-9508-3d135978a6c9.png)
+
+Our median Web Page Test [scores](http://www.webpagetest.org/result/160208_92_RHF/) for the default template have a [Speed Index](https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index) of ~1100 (1000 is ideal).
 
 ## Browser Support
 
