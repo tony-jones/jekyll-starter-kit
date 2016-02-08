@@ -15,11 +15,11 @@
   <script>
     {% include js/loadcss.min.js %}
     loadCSS( "https://fonts.googleapis.com/icon?family=Material+Icons" );
+    loadCSS( "/dist/styles/main.min.css", document.getElementById("loadcss") );
   </script>
   <noscript>
+    <link rel="stylesheet" href="{{ "/dist/styles/main.min.css" | prepend: site.baseurl }}">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
   </noscript>
-
-  <link rel="stylesheet" href="{{ "/dist/styles/main.min.css" | prepend: site.baseurl }}">
 
 </head>
