@@ -53,6 +53,8 @@
     "a11y": "^0.4.0",
     "critical": "^0.7.0",
     "parallelshell": "^2.0.0",
-    "psi": "^2.0.2"
+    "psi": "^2.0.2",
+    "chokidar": "1.4.2",
+    "chokidar-cli": "1.2.0"
   }
 }
