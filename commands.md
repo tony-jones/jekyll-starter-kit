@@ -36,4 +36,4 @@ $ npm run pagespeed
 ```sh
 $ npm run accessibility
 ```
-Visit the [Package File](package.json) file for the full list.
+Visit the [package.json](package.json) file for the full list.
