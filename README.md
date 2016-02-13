@@ -31,7 +31,7 @@ Bring up a terminal and type `node --version`.
 Node should respond with a version at or above 0.10.x.
 If you require Node, go to [nodejs.org](https://nodejs.org) and click on the big green Install button.
 
-Once you have verified that your system can run JSK, check out the [commands](docs/commands.md) available to get started.
+Once you have verified that your system can run JSK, check out the [commands](commands.md) available to get started.
 
 ## Performance
 
