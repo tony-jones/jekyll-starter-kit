@@ -55,14 +55,13 @@ JSK has autoprefixer using the last three versions of the following browsers:
 
 Visit the [Browser List](https://github.com/ai/browserslist) for more information
 
-
 ## Troubleshooting
 
 If you find yourself running into issues during installation or running the tools, please open an [issue](https://github.com/tony-jones/jekyll-starter-kit/issues). I would be happy to discuss how they can be solved.
 
 ## Contributing
 
-Contributions, questions and comments are all welcome and encouraged. For code contributions to Jekyll Starter Kit, please see the submit a pull request.
+Contributions, questions and comments are all welcome and encouraged. For code contributions to Jekyll Starter Kit, please see the submit a pull request. There is no formal process established currently, so just fork and submit your code!
 
 ## License
 
