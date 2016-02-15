@@ -10,7 +10,8 @@ install:
 - gem install jekyll
 
 script:
-- npm run build
+- npm run build:jekyll
+- npm run accessibility
 
 env:
   global:
