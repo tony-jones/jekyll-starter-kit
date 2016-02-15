@@ -28,7 +28,7 @@
     "build:css": "npm run sass && npm run prefix",
     "build:font": "npm run font",
     "build:images": "npm run imagemin",
-    "build": "npm run clean && npm run build:js && npm run build:css && npm run build:images && npm run build:jekyll && npm run critical",
+    "build": "npm run clean && npm run build:js && npm run build:css && npm run build:jekyll && npm run critical",
     "watch:jekyll": "chokidar 'index.html' '_includes/*.html' '_layouts/*.html' '_posts/*' -c 'npm run build:jekyll && browser-sync reload'",
     "watch:css": "chokidar 'src/styles/**/*' -c 'npm run sass:_site && browser-sync reload'",
     "watch:js": "chokidar 'src/scripts/*' -c 'npm run uglify:_site && browser-sync reload'",
