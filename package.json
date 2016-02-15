@@ -22,7 +22,7 @@
     "font": "cp -R src/fonts dist/fonts",
     "imagemin": "imagemin src/images/* dist/images/ -p",
     "pagespeed": "psi tony-jones.github.io/jekyll-starter-kit/ --strategy=mobile",
-    "accessibility": "a11y tony-jones.github.io/jekyll-starter-kit/",
+    "accessibility": "a11y _site/**/*.html",
     "build:jekyll": "jekyll build --config _config.yml,_config-dev.yml",
     "build:js": "npm run eslint && npm run uglify",
     "build:css": "npm run sass && npm run prefix",
