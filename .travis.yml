@@ -7,7 +7,7 @@ install:
 - gem install jekyll
 
 script:
-- npm run start
+- npm run build
 
 env:
   global:
