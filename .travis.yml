@@ -2,6 +2,10 @@ language: node_js
 node_js:
   - "4.1"
 
+before_script:
+  - rvm install ruby $ruby
+  - rvm use 2.3.0
+
 install:
 - npm install
 - gem update --system
