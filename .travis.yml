@@ -2,6 +2,9 @@ language: ruby
 rvm:
 - 2.1
 
+node_js:
+- "4.1"
+
 install:
 - npm install
 - gem install jekyll
