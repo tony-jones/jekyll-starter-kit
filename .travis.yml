@@ -3,13 +3,14 @@ node_js:
   - "4.1"
 
 before_script:
-  - rvm install ruby $ruby
+  - rvm install ruby 2.3.0
   - rvm use 2.3.0
+  - ruby -v
+  - gem install jekyll
+  - gem update --system
 
 install:
 - npm install
-- gem update --system
-- gem install jekyll
 
 script:
 - npm run build
