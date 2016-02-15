@@ -34,6 +34,7 @@
     "watch:js": "chokidar 'src/scripts/*' -c 'npm run uglify:_site && browser-sync reload'",
     "serve": "browser-sync start --https --server _site",
     "start": "npm run build -s && parallelshell \"npm run serve -s\" \"npm run watch:jekyll -s\" \"npm run watch:css -s\" \"npm run watch:js -s\"",
+    "test": "npm run build"
   },
   "author": "Tony Jones <ad30jone@gmail.com>, <@iamtonybagels>",
   "license": "Apache",
