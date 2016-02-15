@@ -9,7 +9,7 @@
     "uglify:dist": "uglify -s src/scripts/*.js -o dist/scripts/main.min.js",
     "uglify:_site": "uglify -s src/scripts/*.js -o _site/dist/scripts/main.min.js",
     "uglify": "npm run uglify:dist",
-    "test": "mocha ./test/unit/*",
+    "test": "npm run build",
     "clean:dist": "rm -rf dist && rm -rf _site",
     "clean": "npm run clean:dist",
     "copy:dist": "cp -R src/ dist/",
@@ -33,8 +33,7 @@
     "watch:css": "chokidar 'src/styles/**/*' -c 'npm run sass:_site && browser-sync reload'",
     "watch:js": "chokidar 'src/scripts/*' -c 'npm run uglify:_site && browser-sync reload'",
     "serve": "browser-sync start --https --server _site",
-    "start": "npm run build -s && parallelshell \"npm run serve -s\" \"npm run watch:jekyll -s\" \"npm run watch:css -s\" \"npm run watch:js -s\"",
-    "test": "npm run build"
+    "start": "npm run build -s && parallelshell \"npm run serve -s\" \"npm run watch:jekyll -s\" \"npm run watch:css -s\" \"npm run watch:js -s\""
   },
   "author": "Tony Jones <ad30jone@gmail.com>, <@iamtonybagels>",
   "license": "Apache",
@@ -44,6 +43,7 @@
     "eslint": "^1.10.3",
     "eslint-config-google": "^0.3.0",
     "html-proofer": "0.0.1",
+    "image-min": "^0.3.2",
     "node-sass": "^3.4.2",
     "parallelshell": "^2.0.0",
     "postcss": "^5.0.14",
