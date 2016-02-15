@@ -1,16 +1,14 @@
-language: ruby
-rvm:
-- 2.1
-
+language: node_js
 node_js:
-- "4.1"
+  - "4.1"
 
 install:
 - npm install
+- gem update --system
 - gem install jekyll
 
 script:
-- npm run build:jekyll
+- npm run build
 - npm run accessibility
 
 env:
