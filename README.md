@@ -1,3 +1,5 @@
+# [![jekyll-starter-kit-logo](https://cloud.githubusercontent.com/assets/6729106/14230471/e47f496e-f926-11e5-8003-7744285adbdc.jpg)](https://github.com/tony-jones/jekyll-starter-kit/releases/latest)
+
 # [Jekyll Starter Kit](https://github.com/tony-jones/jekyll-starter-kit/releases/latest)
 
 ## Overview
