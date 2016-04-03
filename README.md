@@ -4,7 +4,7 @@
 
 ## Overview
 
-Jekyll Starter Kit is a boilerplate with configurable tools for static site development. These tools provide syncronized cross-device testing with a focus on [performance](#performance). This is a good starting point for developers who want to build a Jekyll site with npm-based (npm run-scripts) tooling.
+Jekyll Starter Kit is a boilerplate with configurable tools for static site development. These tools provide synchronized cross-device testing with a focus on [performance](#performance). This is a good starting point for developers who want to build a Jekyll site with npm-based (npm run-scripts) tooling.
 
 ## Inspiration
 This project was inspired by Google's Web Starter Kit and achieves most of the same functionality (noted below)
