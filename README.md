@@ -1,3 +1,5 @@
+⚠️ This repository is no longer actively maintained.
+
 # [![jekyll-starter-kit-logo](https://cloud.githubusercontent.com/assets/6729106/14230501/dfff5238-f928-11e5-84e2-0b884a0f3775.jpg)](https://github.com/tony-jones/jekyll-starter-kit/releases/latest)
 
 # [Jekyll Starter Kit](https://github.com/tony-jones/jekyll-starter-kit/releases/latest)
